@@ -28,6 +28,44 @@
   color: #61dafb;
 }
 
+a{
+  text-decoration: none;
+}
+
+.nav-container{
+  background-color: #7a4db9;
+  margin: 0;
+  padding: 5px 25px;
+}
+.nav-bar{
+  margin: 0 auto;
+  width: 80%;  
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navbar-right{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.profile-logout{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 12px;
+  color: #7a4db9;
+}
+.profile-name{
+  text-decoration: none;
+  color: white;
+}
+.profile-name:hover{
+  cursor: pointer;
+}
+.hide{
+  display: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
